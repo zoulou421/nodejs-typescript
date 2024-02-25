@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": " npx jest --verbose",
+    "test-watch": "npx jest --verbose  --watchAll",
     "start": "npx tsc && node dist/index.js",
     "dev": "concurrently -n \"TS, Node\" \"npx tsc --watch\" \"nodemon dist/index.js\""
   },
