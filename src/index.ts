@@ -2,6 +2,8 @@
 //Instantiate your server
 import Server from "./server";
 
-const port=(process.env.PORT||'7777');
+const port=(process.env.PORT||'7788');
 let server=new Server(parseInt(port));
 server.start();
+
+//"test": "echo \"Error: no test specified\" && exit 1"

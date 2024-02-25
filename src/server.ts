@@ -5,10 +5,10 @@ export default class Server{
  public start(){
      const app=express();
      app.get("/",(req, res)=>{
-            res.send("Hello from the Express/Typescript/Nodejs");
+            res.send("Hello from Typescript/Nodejs");
      });
      app.listen(this.port,()=>{
-         console.log("Server express Typescript STARTED AT:"+this.port);
+         console.log("Server Typescript STARTED AT:"+this.port);
      });
  }
 }
